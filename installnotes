@@ -1,0 +1,55 @@
+ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+    2  rustc --version
+    3  source "$HOME/.cargo/env"
+    4  rustc --version
+    5  rustup default 1.62.1
+    6  ls
+    7  sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
+    8  export PATH="/home/ubuntu/.local/share/solana/install/active_release/bin:$PATH"
+    9  solana --version
+   10  solana config set --url http://ec2-35-84-208-114.us-west-2.compute.amazonaws.com
+   11  solana config get
+   12  npm
+   13  curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+   14  cat nodesource_setup.sh
+   15  cat nodesource_setup.sh  | more
+   16  sudo bash nodesource_setup.sh
+   17  node
+   18  npm
+   19  sudo apt install nodejs build-essential
+ 
+   21  sudo npm install -g mocha
+   28  rustup default 1.63.0
+   29  cargo install --git https://github.com/project-serum/anchor anchor-cli --locked
+   30  sudo apt install libssl-dev
+   31  cargo install --git https://github.com/project-serum/anchor anchor-cli --locked
+   32  npm install @project-serum/anchor @solana/web3.js
+   33  brew install yarn
+   34  sudo apt install brew
+   35  mkdir airdrop-project
+   36  cd airdrop-project
+   37  npm init -y
+   38  ls
+   39  npm install --save @solana/web3.js
+   40  rustc --version
+   41  vi index.js
+   42  node index.js
+   43  vi index.js
+   44  node index.js
+   45  cd ..
+   46 solana --version
+   47  solana-keygen new
+   48  solana airdrop 2 BZJPARE9oBGmr9ZQ1jrHpzPY2A36iQ3Sv8xDGZGeKb4C
+   49  solana airdrop 2 BZJPARE9oBGmr9ZQ1jrHpzPY2A36iQ3Sv8xDGZGeKb4C --url devnet
+   50  ls
+   51  spl-token create-token  -url devnet
+   52  sudo apt-get install libssl1.1
+   53  sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   54  sudo apt-get install libssl1.1
+   55  ls
+   56  sudo apt-get libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   57  sudo apt-get install libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   58  ls
+   59  wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   60  spl-token create-token  -url devnet
+   61  spl-token create-token  --url devnet

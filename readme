@@ -1,0 +1,48 @@
+
+
+ubuntu@ip-172-31-52-193:~$ spl-token create-token  --url devnet                 Creating token GGdd5FVP6eYUB85aKn1VuBPatYEo9DR9r2eDrWVodvYm
+
+Signature: 3uAwQq5FKy5cmiF7xUtdXYeuZM7JR2DM57qEWarbXuYfRczEcLNbXVtZuDmqmXM1LSHoBo2S9i9qVaEPrmJEiNpJ
+
+ubuntu@ip-172-31-52-193:~$
+
+
+
+
+
+
+
+ubuntu@ip-172-31-52-193:~$ spl-token create-account  GGdd5FVP6eYUB85aKn1VuBPatYEo9DR9r2eDrWVodvYm  --url devnet
+Creating account 7ujYB1YjZQWMpYn58P7nx4khZrYSXwVpEueNeptigeBd
+
+Signature: 3VPWQUSR6tW59CYUULByPXDiWTjppRos7zwFx8ySr9pcVXeCbKQkVYfCkgqCcFxW2ut2VYU19eQnKffQHM6D4QGC
+
+
+
+
+
+< mint to token name = NOT account name >
+
+ubuntu@ip-172-31-52-193:~$ spl-token mint  GGdd5FVP6eYUB85aKn1VuBPatYEo9DR9r2eDrWVodvYm 1000  --url devnet
+Minting 1000 tokens
+  Token: GGdd5FVP6eYUB85aKn1VuBPatYEo9DR9r2eDrWVodvYm
+  Recipient: 7ujYB1YjZQWMpYn58P7nx4khZrYSXwVpEueNeptigeBd
+
+Signature: 3uV58XgdJBoKK23EFDopokYdyJhaBDThB5zfJjCZsnAqKCobdUxF1pM9htNvhq9Z6UrdGW9Y8QvDyYueNcB3DUpQ
+
+ubuntu@ip-172-31-52-193:~$
+
+
+
+
+
+ubuntu@ip-172-31-52-193:~$ spl-token balance  GGdd5FVP6eYUB85aKn1VuBPatYEo9DR9r2eDrWVodvYm  --url devnet
+1000
+
+ubuntu@ip-172-31-52-193:~$
+
+
+
+
+
+

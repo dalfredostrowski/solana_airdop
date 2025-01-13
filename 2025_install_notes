@@ -1,0 +1,54 @@
+ source "$HOME/.cargo/env"
+    2  sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
+    3  sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
+    4  export PATH="/home/ubuntu/.local/share/solana/install/active_release/bin:$PATH"
+    5  solana --version
+    6  solana config get
+    7  curl -sL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh
+    8  cat nodesource_setup.sh
+    9  node
+   10  npm
+   11  sudo apt install nodejs build-essential
+   12  sudo npm install -g mocha
+   13  cargo install --git https://github.com/project-serum/anchor anchor-cli --locked
+   14  history
+
+source "$HOME/.cargo/env"
+    2  sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
+    3  sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
+    4  export PATH="/home/ubuntu/.local/share/solana/install/active_release/bin:$PATH"
+    5  solana --version
+    6  solana config get
+    7  curl -sL https://deb.nodesource.com/setup_22.x -o nodesource_setup.sh
+    8  cat nodesource_setup.sh
+    9  node
+   10  npm
+   11  sudo apt install nodejs build-essential
+   12  sudo npm install -g mocha
+   13  cargo install --git https://github.com/project-serum/anchor anchor-cli --locked
+   14  history
+   15  sudo apt install libssl-dev
+   16  cargo install --git https://github.com/project-serum/anchor anchor-cli --locked
+   17  npm install @project-serum/anchor @solana/web3.js
+   18  brew install yarn
+   19  sudo apt install brew
+   20  npm install --save @solana/web3.js
+   21  vi index.js
+   22  node index.js
+   23  ls
+   24  vi index.js
+   25  node index.js
+   26  solana-keygen new
+   27  solana airdrop 2 7H5VTRbzZTnGeaA41cgJZf1ncsiDjgtKFbJo2cF8ssZe --url devnet
+   28  solana airdrop 1 7H5VTRbzZTnGeaA41cgJZf1ncsiDjgtKFbJo2cF8ssZe --url devnet
+   29  sudo apt-get install libssl1.1
+   30  sudo apt-get libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   31  wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
+   32  spl-token create-token  --url devnet
+   33  solana-keygen new
+   34  solana-keygen new --force
+   35  history
+
+
+
+9r8pCjZphjjYn8X2C7hUePV334BwHdgQ2xUpsQUFdjBj

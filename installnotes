@@ -1,4 +1,7 @@
- curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
+
+// install rust!
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
     2  rustc --version
     3  source "$HOME/.cargo/env"
     4  rustc --version
@@ -7,9 +10,9 @@
 //    7  sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
 
 
-
+// install solana CLI
  sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
-
+// set your path for solana  - so you do need a new terminal 
     8  export PATH="/home/ubuntu/.local/share/solana/install/active_release/bin:$PATH"
     9  solana --version
    10  solana config set --url http://ec2-35-84-208-114.us-west-2.compute.amazonaws.com
